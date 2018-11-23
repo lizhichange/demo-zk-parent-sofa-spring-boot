@@ -1,0 +1,21 @@
+spring:
+  application:
+    name: demo-zk-web
+
+
+server:
+  port: 8881
+
+
+com:
+  alipay:
+    sofa:
+      rpc:
+        registry:
+          address: zookeeper://192.168.1.21:2181,192.168.1.22:2181,192.168.1.23:2181
+logging:
+  path: ./logs
+
+
+
+
