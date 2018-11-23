@@ -11,7 +11,7 @@ import org.springframework.context.annotation.ComponentScan;
 public class AppMain {
 
     public static void main(String[] args) {
-
+        //test fix me
         new SpringApplicationBuilder(AppMain.class).web(true).run(args);
     }
 }
