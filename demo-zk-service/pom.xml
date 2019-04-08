@@ -22,7 +22,6 @@
         </dependency>
 
 
-
         <dependency>
             <groupId>com.alipay.sofa</groupId>
             <artifactId>rpc-sofa-boot-starter</artifactId>
@@ -35,14 +34,17 @@
         </dependency>
 
 
-
+        <dependency>
+            <groupId>com.alipay.sofa</groupId>
+            <artifactId>healthcheck-sofa-boot-starter</artifactId>
+            <optional>true</optional>
+        </dependency>
 
 
         <dependency>
             <groupId>com.alipay.sofa</groupId>
             <artifactId>test-sofa-boot-starter</artifactId>
         </dependency>
-
 
 
     </dependencies>
@@ -62,28 +64,6 @@
                     </execution>
                 </executions>
             </plugin>
-            <plugin>
-                <groupId>org.mybatis.generator</groupId>
-                <artifactId>mybatis-generator-maven-plugin</artifactId>
-                <version>1.3.5</version>
-                <configuration>
-                    <overwrite>true</overwrite>
-                    <skip>false</skip>
-                </configuration>
-                <dependencies>
-                    <dependency>
-                        <groupId>org.near</groupId>
-                        <artifactId>near-mybatis-generator-extends</artifactId>
-                        <version>1.0.0</version>
-                    </dependency>
-                    <dependency>
-                        <groupId>mysql</groupId>
-                        <artifactId>mysql-connector-java</artifactId>
-                        <version>5.1.34</version>
-                    </dependency>
-                </dependencies>
-            </plugin>
-
 
             <plugin>
                 <groupId>com.alipay.sofa</groupId>
