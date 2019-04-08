@@ -1,4 +1,4 @@
-package com.fulihui.demo.zk.service;
+package com.fulihui.demo.zk.service.impl;
 
 import com.alipay.sofa.runtime.api.annotation.SofaService;
 import com.alipay.sofa.runtime.api.annotation.SofaServiceBinding;

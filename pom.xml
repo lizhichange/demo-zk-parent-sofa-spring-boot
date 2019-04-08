@@ -8,8 +8,8 @@
     <artifactId>demo-zk-parent-sofa-spring-boot</artifactId>
     <packaging>pom</packaging>
     <version>1.0.0</version>
-	
-	
+
+
     <modules>
         <module>demo-zk-facade</module>
         <module>demo-zk-service</module>
@@ -33,8 +33,6 @@
     <dependencyManagement>
         <dependencies>
 
-
-
             <dependency>
                 <groupId>com.fulihui</groupId>
                 <artifactId>demo-zk-service</artifactId>
@@ -51,9 +49,17 @@
                 <artifactId>demo-zk-web</artifactId>
                 <version>1.0.0</version>
             </dependency>
+
+
         </dependencies>
     </dependencyManagement>
 
+    <dependencies>
+        <dependency>
+            <groupId>com.alipay.sofa</groupId>
+            <artifactId>runtime-sofa-boot-starter</artifactId>
+        </dependency>
+    </dependencies>
 
 
     <profiles>
